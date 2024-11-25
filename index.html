@@ -41,11 +41,14 @@
     }
     .nav{
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+        
        flex-wrap: wrap;
         background-color: rgb(8, 27, 44);
         width: 100vw;
         min-height: 10vh;
+        gap: 10px;
+        
         
     }
     a{
@@ -53,16 +56,19 @@
         color: white;
     }
     .color:hover{
-        background-color: rgb(28, 71, 121);
-        
+        background-color: rgb(33, 47, 63);
+        border-radius: 20px; 
         
         
     }
     .color{
-        display: inline-block; 
-    border-radius: 20px; 
+        display: flex; 
+    justify-content: center;
     padding: 0 20px; 
-    transition: background-color 0.3s ease;
+    transition:  0.3s ease;
+    background-color: rgb(20, 31, 56);
+    height: 10vh;
+    
     }
     :target{
         background-color: rgb(62, 115, 165);
